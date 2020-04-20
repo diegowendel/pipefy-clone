@@ -1,97 +1,94 @@
 export function loadLists() {
   return [
     {
-      title: 'Tarefas',
+      title: 'Tasks',
       creatable: true,
       cards: [
         {
           id: 1,
-          content: 'Estudar módulo 01 de NodeJS',
+          content: 'Study GatsbyJS',
           labels: ['#7159c1'],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
         {
           id: 2,
-          content:
-            'Criar vídeo para o Youtube ensinando a recriar a interface do Pipefy',
+          content: 'Watch Firebase course classes',
           labels: ['#7159c1'],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
         {
           id: 3,
-          content: 'Estudar módulo 03 de React Native',
+          content: 'Study new React Native features',
           labels: ['#7159c1'],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
         {
           id: 4,
-          content:
-            'Gravar Aula "NextJS: Utilizando server-side rendering com ReactJS"',
+          content: 'Improve project README.md',
           labels: ['#54e1f7'],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
         {
           id: 5,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Improve unit tests on crud operations',
           labels: ['#54e1f7'],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
       ],
     },
     {
-      title: 'Fazendo',
+      title: 'Doing',
       creatable: false,
       cards: [
         {
           id: 6,
-          content: 'Recriando clone do Pipefy',
+          content: 'Recreating Pipefy clone',
           labels: [],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
       ],
     },
     {
-      title: 'Pausado',
+      title: 'Stale',
       creatable: false,
       cards: [
         {
           id: 7,
-          content: 'Gravar sobre Geolocalização e mapas com React Native',
+          content: 'Update project documentation',
           labels: ['#7159c1'],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
         {
           id: 8,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Implement SSL security on website',
           labels: ['#54e1f7'],
           user: 'https://avatars3.githubusercontent.com/u/18352848?s=460&v=4',
         },
         {
           id: 9,
-          content: 'Ajustes na biblioteca unform',
+          content: 'Review pull requests',
           labels: [],
         },
       ],
     },
     {
-      title: 'Concluído',
+      title: 'Done',
       creatable: false,
       done: true,
       cards: [
         {
           id: 10,
-          content: 'Gravar aula sobre deploy e CI com React Native',
+          content: 'Release app on Apple Store',
           labels: [],
         },
         {
           id: 12,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Try out new end-to-end test libraries',
           labels: ['#54e1f7'],
         },
         {
           id: 13,
-          content:
-            'Gravar Aula "Internacionalização de aplicações Node.js, ReactJS e React Native"',
+          content: 'Implement i18n on React projects',
           labels: ['#7159c1'],
         },
       ],

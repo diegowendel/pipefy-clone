@@ -4,7 +4,9 @@ export const Container = styled.div`
   padding: 0 15px;
   height: 100%;
   flex: 0 0 320px;
-  opacity: ${props => (props.done ? 0.6 : 1)};
+  opacity: ${(props) => (props.done ? 0.6 : 1)};
+  display: flex;
+  flex-direction: column;
 
   & + div {
     border-left: 1px solid rgba(0, 0, 0, 0.05);
@@ -33,6 +35,7 @@ export const Container = styled.div`
   }
 
   ul {
+    flex: 1;
     margin-top: 30px;
   }
 `;
